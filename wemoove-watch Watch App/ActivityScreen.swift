@@ -1,13 +1,13 @@
 import SwiftUI
-
+ 
 struct ActivityScreen: View {
     let activity: String
-    let icon: String
+        let icon: String
 
     @State private var timer: Timer?
     @State private var elapsed: TimeInterval = 0
     @State private var running = false
-
+    
     var body: some View {
         VStack(spacing: 10) {
             HStack {
