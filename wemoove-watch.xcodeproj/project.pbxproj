@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BE641F2E2834B700038A1D /* wemoove-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04BE64242E2834B700038A1D /* wemoove_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64232E2834B700038A1D /* wemoove_watchApp.swift */; };
+		04BE64262E2834B700038A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64252E2834B700038A1D /* ContentView.swift */; };
+		04BE64282E2834E100038A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE64272E2834E100038A1D /* Assets.xcassets */; };
+		04BE642B2E2834E100038A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE642A2E2834E100038A1D /* Preview Assets.xcassets */; };
+		04BE64352E2834E200038A1D /* wemoove_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64342E2834E200038A1D /* wemoove_watch_Watch_AppTests.swift */; };
+		04BE643F2E2834E200038A1D /* wemoove_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE643E2E2834E200038A1D /* wemoove_watch_Watch_AppUITests.swift */; };
+		04BE64412E2834E200038A1D /* wemoove_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64402E2834E200038A1D /* wemoove_watch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BE64202E2834B700038A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BE64122E2834B400038A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE641D2E2834B700038A1D;
+			remoteInfo = "wemoove-watch Watch App";
+		};
+		04BE64312E2834E200038A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BE64122E2834B400038A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE641D2E2834B700038A1D;
+			remoteInfo = "wemoove-watch Watch App";
+		};
+		04BE643B2E2834E200038A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BE64122E2834B400038A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE641D2E2834B700038A1D;
+			remoteInfo = "wemoove-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04BE64472E2834E200038A1D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04BE641F2E2834B700038A1D /* wemoove-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04BE64182E2834B600038A1D /* wemoove-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wemoove-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wemoove-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE64232E2834B700038A1D /* wemoove_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemoove_watchApp.swift; sourceTree = "<group>"; };
+		04BE64252E2834B700038A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04BE64272E2834E100038A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BE642A2E2834E100038A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04BE64302E2834E200038A1D /* wemoove-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wemoove-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE64342E2834E200038A1D /* wemoove_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemoove_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		04BE643A2E2834E200038A1D /* wemoove-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wemoove-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE643E2E2834E200038A1D /* wemoove_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemoove_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		04BE64402E2834E200038A1D /* wemoove_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemoove_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BE641B2E2834B700038A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE642D2E2834E200038A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE64372E2834E200038A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BE64112E2834B400038A1D = {
+			isa = PBXGroup;
+			children = (
+				04BE64222E2834B700038A1D /* wemoove-watch Watch App */,
+				04BE64332E2834E200038A1D /* wemoove-watch Watch AppTests */,
+				04BE643D2E2834E200038A1D /* wemoove-watch Watch AppUITests */,
+				04BE64192E2834B600038A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BE64192E2834B600038A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BE64182E2834B600038A1D /* wemoove-watch.app */,
+				04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */,
+				04BE64302E2834E200038A1D /* wemoove-watch Watch AppTests.xctest */,
+				04BE643A2E2834E200038A1D /* wemoove-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BE64222E2834B700038A1D /* wemoove-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				04BE64232E2834B700038A1D /* wemoove_watchApp.swift */,
+				04BE64252E2834B700038A1D /* ContentView.swift */,
+				04BE64272E2834E100038A1D /* Assets.xcassets */,
+				04BE64292E2834E100038A1D /* Preview Content */,
+			);
+			path = "wemoove-watch Watch App";
+			sourceTree = "<group>";
+		};
+		04BE64292E2834E100038A1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04BE642A2E2834E100038A1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04BE64332E2834E200038A1D /* wemoove-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BE64342E2834E200038A1D /* wemoove_watch_Watch_AppTests.swift */,
+			);
+			path = "wemoove-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		04BE643D2E2834E200038A1D /* wemoove-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BE643E2E2834E200038A1D /* wemoove_watch_Watch_AppUITests.swift */,
+				04BE64402E2834E200038A1D /* wemoove_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "wemoove-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BE64172E2834B600038A1D /* wemoove-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE64482E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch" */;
+			buildPhases = (
+				04BE64162E2834B600038A1D /* Resources */,
+				04BE64472E2834E200038A1D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BE64212E2834B700038A1D /* PBXTargetDependency */,
+			);
+			name = "wemoove-watch";
+			productName = "wemoove-watch";
+			productReference = 04BE64182E2834B600038A1D /* wemoove-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		04BE641D2E2834B700038A1D /* wemoove-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE64442E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch App" */;
+			buildPhases = (
+				04BE641A2E2834B700038A1D /* Sources */,
+				04BE641B2E2834B700038A1D /* Frameworks */,
+				04BE641C2E2834B700038A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wemoove-watch Watch App";
+			productName = "wemoove-watch Watch App";
+			productReference = 04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BE642F2E2834E200038A1D /* wemoove-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE644B2E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch AppTests" */;
+			buildPhases = (
+				04BE642C2E2834E200038A1D /* Sources */,
+				04BE642D2E2834E200038A1D /* Frameworks */,
+				04BE642E2E2834E200038A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BE64322E2834E200038A1D /* PBXTargetDependency */,
+			);
+			name = "wemoove-watch Watch AppTests";
+			productName = "wemoove-watch Watch AppTests";
+			productReference = 04BE64302E2834E200038A1D /* wemoove-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BE64392E2834E200038A1D /* wemoove-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE644E2E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch AppUITests" */;
+			buildPhases = (
+				04BE64362E2834E200038A1D /* Sources */,
+				04BE64372E2834E200038A1D /* Frameworks */,
+				04BE64382E2834E200038A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BE643C2E2834E200038A1D /* PBXTargetDependency */,
+			);
+			name = "wemoove-watch Watch AppUITests";
+			productName = "wemoove-watch Watch AppUITests";
+			productReference = 04BE643A2E2834E200038A1D /* wemoove-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BE64122E2834B400038A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04BE64172E2834B600038A1D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04BE641D2E2834B700038A1D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04BE642F2E2834E200038A1D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04BE641D2E2834B700038A1D;
+					};
+					04BE64392E2834E200038A1D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04BE641D2E2834B700038A1D;
+					};
+				};
+			};
+			buildConfigurationList = 04BE64152E2834B400038A1D /* Build configuration list for PBXProject "wemoove-watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BE64112E2834B400038A1D;
+			productRefGroup = 04BE64192E2834B600038A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BE64172E2834B600038A1D /* wemoove-watch */,
+				04BE641D2E2834B700038A1D /* wemoove-watch Watch App */,
+				04BE642F2E2834E200038A1D /* wemoove-watch Watch AppTests */,
+				04BE64392E2834E200038A1D /* wemoove-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BE64162E2834B600038A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE641C2E2834B700038A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE642B2E2834E100038A1D /* Preview Assets.xcassets in Resources */,
+				04BE64282E2834E100038A1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE642E2E2834E200038A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE64382E2834E200038A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BE641A2E2834B700038A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE64262E2834B700038A1D /* ContentView.swift in Sources */,
+				04BE64242E2834B700038A1D /* wemoove_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE642C2E2834E200038A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE64352E2834E200038A1D /* wemoove_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE64362E2834E200038A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE643F2E2834E200038A1D /* wemoove_watch_Watch_AppUITests.swift in Sources */,
+				04BE64412E2834E200038A1D /* wemoove_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BE64212E2834B700038A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE641D2E2834B700038A1D /* wemoove-watch Watch App */;
+			targetProxy = 04BE64202E2834B700038A1D /* PBXContainerItemProxy */;
+		};
+		04BE64322E2834E200038A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE641D2E2834B700038A1D /* wemoove-watch Watch App */;
+			targetProxy = 04BE64312E2834E200038A1D /* PBXContainerItemProxy */;
+		};
+		04BE643C2E2834E200038A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE641D2E2834B700038A1D /* wemoove-watch Watch App */;
+			targetProxy = 04BE643B2E2834E200038A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04BE64422E2834E200038A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BE64432E2834E200038A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04BE64452E2834E200038A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wemoove-watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "wemoove-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		04BE64462E2834E200038A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wemoove-watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "wemoove-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		04BE64492E2834E200038A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "wemoove-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04BE644A2E2834E200038A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "wemoove-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BE644C2E2834E200038A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemoove-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wemoove-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		04BE644D2E2834E200038A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemoove-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wemoove-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		04BE644F2E2834E200038A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "wemoove-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		04BE64502E2834E200038A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wemoove.wemoove-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "wemoove-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BE64152E2834B400038A1D /* Build configuration list for PBXProject "wemoove-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE64422E2834E200038A1D /* Debug */,
+				04BE64432E2834E200038A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE64442E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE64452E2834E200038A1D /* Debug */,
+				04BE64462E2834E200038A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE64482E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE64492E2834E200038A1D /* Debug */,
+				04BE644A2E2834E200038A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE644B2E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE644C2E2834E200038A1D /* Debug */,
+				04BE644D2E2834E200038A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE644E2E2834E200038A1D /* Build configuration list for PBXNativeTarget "wemoove-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE644F2E2834E200038A1D /* Debug */,
+				04BE64502E2834E200038A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BE64122E2834B400038A1D /* Project object */;
+}
