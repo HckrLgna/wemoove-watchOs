@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494CA5D2E298C9600B3757C /*  ActivityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494CA5C2E298C9600B3757C /*  ActivityScreen.swift */; };
 		04BE641F2E2834B700038A1D /* wemoove-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04BE64242E2834B700038A1D /* wemoove_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64232E2834B700038A1D /* wemoove_watchApp.swift */; };
 		04BE64262E2834B700038A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE64252E2834B700038A1D /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0494CA5C2E298C9600B3757C /*  ActivityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ActivityScreen.swift"; sourceTree = "<group>"; };
 		04BE64182E2834B600038A1D /* wemoove-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wemoove-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE641E2E2834B700038A1D /* wemoove-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wemoove-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE64232E2834B700038A1D /* wemoove_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemoove_watchApp.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				04BE64252E2834B700038A1D /* ContentView.swift */,
 				04BE64272E2834E100038A1D /* Assets.xcassets */,
 				04BE64292E2834E100038A1D /* Preview Content */,
+				0494CA5C2E298C9600B3757C /*  ActivityScreen.swift */,
 			);
 			path = "wemoove-watch Watch App";
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BE64262E2834B700038A1D /* ContentView.swift in Sources */,
+				0494CA5D2E298C9600B3757C /*  ActivityScreen.swift in Sources */,
 				04BE64242E2834B700038A1D /* wemoove_watchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

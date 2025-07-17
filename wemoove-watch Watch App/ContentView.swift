@@ -10,20 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            VStack(spacing: 12) {
+            Spacer(minLength: 30)
+            VStack(spacing: 2) {
                 ActivityButton(icon: "figure.walk", label: "Walk")
                 ActivityButton(icon: "figure.run", label: "Run")
                 ActivityButton(icon: "bicycle", label: "Bike")
                 ActivityButton(icon: "figure.pool.swim", label: "Swim")
             }
-            .padding()
+            .frame(maxHeight: .infinity, alignment: .bottom)
+            //.padding(.bottom, 10)
+            //.padding(.vertical,4)
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [.teal, .orange]),
-                    startPoint: .top,
-                    endPoint: .bottom
+                    gradient: Gradient(colors: [
+                        Color(red: 102/255, green: 0/255, blue: 255/255),
+                        Color(red: 102/255, green: 0/255, blue: 255/255)
+                    ]),
+                    startPoint: .leading,
+                    endPoint: .trailing
                 )
             )
+
         }
     }
 }
@@ -39,14 +46,16 @@ struct ActivityButton: View {
                     .foregroundColor(.white)
                 Text(label)
                     .foregroundColor(.white)
-                    .font(.system(size: 13))
+                    .font(.system(size: 10))
             }
-            .frame(width: 130, height: 30)
+            .frame(width: 130, height: 20)
+            .padding(.horizontal, 4)
+            .padding(.vertical, 4)
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [.teal, .orange]),
-                    startPoint: .leading,
-                    endPoint: .trailing
+                    gradient: Gradient(colors: [Color(red: 0.16, green: 0.58, blue: 0.65), Color(red: 1.0, green: 0.65, blue: 0.3)]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
                 )
             )
             .cornerRadius(10)
