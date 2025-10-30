@@ -8,19 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Lee userId y jwt de UserDefaults
+    @State private var userId: Int = UserDefaults.standard.integer(forKey: "userId")
+    @State private var jwt: String = UserDefaults.standard.string(forKey: "jwt") ?? ""
+
     var body: some View {
-        NavigationStack {
-            Spacer(minLength: 30)
-            VStack(spacing: 2) {
-                ActivityButton(icon: "figure.walk", label: "Walk")
-                ActivityButton(icon: "figure.run", label: "Run")
-                ActivityButton(icon: "bicycle", label: "Bike")
-                ActivityButton(icon: "figure.pool.swim", label: "Swim")
+        NavigationView {
+            ScrollView {
+                LazyVStack(spacing: 10) {
+                    ForEach(activities, id: \.id) { item in
+                        NavigationLink(destination: ActivityScreen(
+                            activity: item.name,
+                            icon: item.icon,
+                            userId: userId,  // Pasa userId
+                            jwt: jwt  // Pasa jwt
+                        )) {
+                            ActivityButton(item: item)
+                        }
+                    }
+                }
             }
-            .frame(maxHeight: .infinity, alignment: .bottom)
-            //.padding(.bottom, 10)
-            //.padding(.vertical,4)
-            .background(
+            // Modelo simple para actividades — si lo prefieres, mueve esto a un ViewModel
+            let activities: [ActivityItem] = [
+                ActivityItem(id: 1, icon: "figure.walk", label: "Walk"),
+                ActivityItem(id: 2, icon: "figure.run", label: "Run"),
+                ActivityItem(id: 3, icon: "bicycle", label: "Bike"),
+                ActivityItem(id: 4, icon: "figure.pool.swim", label: "Swim"),
+                // Puedes añadir más items aquí o cargarlos dinámicamente
+            ]
+
+            ZStack {
+                // Background gradient
                 LinearGradient(
                     gradient: Gradient(colors: [
                         Color(red: 102/255, green: 0/255, blue: 255/255),
@@ -29,10 +47,28 @@ struct ContentView: View {
                     startPoint: .leading,
                     endPoint: .trailing
                 )
-            )
+                .ignoresSafeArea()
 
+                // Scrollable list of activity buttons
+                ScrollView(.vertical) {
+                    LazyVStack(spacing: 8) {
+                        ForEach(activities, id: \ .id) { item in
+                            ActivityButton(icon: item.icon, label: item.label)
+                        }
+                    }
+                    .padding(.vertical, 8)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+            }
         }
     }
+}
+
+// Simple struct para modelar un item de actividad
+struct ActivityItem {
+    let id: Int
+    let icon: String
+    let label: String
 }
 
 struct ActivityButton: View {
